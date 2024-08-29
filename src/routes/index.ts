@@ -4,6 +4,6 @@ import { Context } from "../../lib/context";
 
 const routes = new Hono<Context>();
 
-routes.route('/users', usersApp)
+routes.route("/users", usersApp);
 
-export default routes
+export default routes;

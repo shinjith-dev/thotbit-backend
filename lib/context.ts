@@ -10,5 +10,5 @@ export interface Context extends Env {
     user: User | null;
     session: Session | null;
   };
-  Bindings: Bindings
+  Bindings: Bindings;
 }

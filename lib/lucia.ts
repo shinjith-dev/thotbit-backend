@@ -1,7 +1,7 @@
 import { Lucia } from "lucia";
 import { initializeLucia } from "./db";
 
-export const lucia = (D1: D1Database) => new Lucia(initializeLucia(D1))
+export const lucia = (D1: D1Database) => new Lucia(initializeLucia(D1));
 
 declare module "lucia" {
   interface Register {
