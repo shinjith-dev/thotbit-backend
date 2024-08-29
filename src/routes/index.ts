@@ -1,8 +1,8 @@
 import { Hono } from "hono";
-import { Bindings } from "..";
 import usersApp from "./users";
+import { Context } from "../../lib/context";
 
-const routes = new Hono<{ Bindings: Bindings }>();
+const routes = new Hono<Context>();
 
 routes.route('/users', usersApp)
 
